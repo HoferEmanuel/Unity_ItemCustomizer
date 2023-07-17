@@ -1,9 +1,13 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 [CreateAssetMenu(menuName = "ScriptableObjects/ItemPart/RangedPartData")]
 public class RangedPartData
 {
-    
+    public float range = 0;
+    public float recoil = 0;
+    public float fireRate = 0;
+    public int ammo = 0;
 }
 
 public enum RangedItemPartType { 
