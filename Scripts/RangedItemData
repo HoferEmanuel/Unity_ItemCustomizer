@@ -1,0 +1,19 @@
+using UnityEngine;
+
+[CreateAssetMenu(menuName = "ScriptableObjects/ItemPart/RangedPartData")]
+public class RangedPartData
+{
+    
+}
+
+public enum RangedItemPartType { 
+    MainReciever, 
+    UpperReciever, 
+    Stock, 
+    Grip, 
+    ForeGrip, 
+    Barrel, 
+    Tactical, 
+    Scope,
+    Handguard
+    }
